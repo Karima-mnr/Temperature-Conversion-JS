@@ -1,0 +1,49 @@
+body{
+    font-family: arial ;
+    background-color: hsl(210, 16%, 85%);
+}
+
+form{
+    background-color: aliceblue;
+    text-align: center;
+    max-width: 350px;
+    margin: auto;
+    padding: 21px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px hsla(0, 0%, 18%, 0.599);
+}
+.h1{
+    color: hsl(240, 68%, 38%);
+    text-transform: uppercase;
+    filter: drop-shadow(0 0 5px rgb(26, 45, 170));
+    font-weight: bold;
+}
+.textBox{
+    font-size: 1.2em;
+    text-align: center;
+    padding: 6px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+.label{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.submit{
+    margin-top: 27px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 8px 15px;
+    background-color: brown;
+    font-weight: bold;
+    color: aliceblue;
+    transform: background-color 0.25s;
+}
+.submit:hover{
+    background-color: rgb(172, 71, 71);
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
